@@ -6,4 +6,4 @@ Desarrollada por:
 - Luciana Torres
 - Joaquín Yornet
 
-Vite usado para la creación del proyecto y para el despliegue en GitHub pages. \nBootstrap usado para el diseño web
+Vite usado para la creación del proyecto y para el despliegue en GitHub pages. <br> Bootstrap usado para el diseño web
