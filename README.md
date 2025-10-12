@@ -1,4 +1,4 @@
-Concepto de plataforma de Ecommerce de productos electrónicos para la materia Taller de tecnología aplicada.
+# Concepto de plataforma de Ecommerce de productos electrónicos para la materia Taller de tecnología aplicada.
 
 Desarrollada por:
 - Brian Tomadín
