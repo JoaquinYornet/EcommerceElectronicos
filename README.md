@@ -13,5 +13,5 @@ Node.js para hacer host local.
 
 - ## Ejecutar en la raíz del proyecto:
   - npm install -g http-server
-  - http://localhost:8000
-- ## Copiar la dirección de la consola y abrirla en un navegadot
+  - http-server
+- ## Copiar la dirección de la consola y abrirla en un navegador
