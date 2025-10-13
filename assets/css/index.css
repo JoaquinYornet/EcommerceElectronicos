@@ -1,0 +1,20 @@
+@media (prefers-color-scheme: light) {
+  :root {
+    --invertir: 0%;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --invertir: 100%;
+  }
+}
+
+.iconos {
+    width: 40px;
+    filter:invert(var(--invertir));
+}
+
+.iconos_wrapper {
+    margin-left: 20px;
+    margin-right: 50px;
+}
