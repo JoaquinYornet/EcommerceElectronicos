@@ -10,11 +10,15 @@
 }
 
 .iconos {
-    width: 40px;
-    filter:invert(var(--invertir));
+  width: 40px;
+  filter:invert(var(--invertir));
 }
 
-.iconos_wrapper {
-    margin-left: 20px;
-    margin-right: 50px;
+.truncate-text {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  line-clamp: 2;
+  white-space: nowrap; 
+  -webkit-line-clamp: 2; 
+  word-break: break-all;
 }
