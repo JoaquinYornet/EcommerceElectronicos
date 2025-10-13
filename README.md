@@ -6,8 +6,9 @@ Desarrollada por:
 - Luciana Torres
 - Joaquín Yornet
 
-Bootstrap usado para el diseño web.
-Node.js para hacer host local.
+Herramientas:
+- Bootstrap usado para el diseño web
+- Node.js para hacer host local
 
 # Visualizar página:
 
