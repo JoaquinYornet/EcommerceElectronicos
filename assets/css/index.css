@@ -22,3 +22,7 @@
   -webkit-line-clamp: 2; 
   word-break: break-all;
 }
+
+.carousel-item {
+  max-height: 700px;
+}
