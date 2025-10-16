@@ -20,4 +20,5 @@ Herramientas:
   <br>
   Con la extensión Live Server de VSCode
   - Click derecho en Index y Open with Live Server
+  
 - ### Copiar la dirección de la consola y abrirla en un navegador
