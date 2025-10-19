@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Electro World</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/detalle.css">
+  </head>
+  <body>
+
+    <div>
+      <nav class="navbar bg-body-tertiary" style="height: 80px;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="assets/images/logo/LogoTiendaEcommerce.png" alt="logo" width="45px" height="45px" class="d-inline-block">
+            Electro World
+          </a>
+
+          <div class="d-flex" style="gap: 10px;">
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Buscar productos, marcas, etc..." aria-label="Search" style="font-size:small; width: 240px;"/>
+              <button class="btn btn-outline-primary" type="submit">Buscar</button>
+            </form>
+            <a href="carrito.html" ><img class="iconos" src="assets/icons/cart.png" alt=""></a>
+            <a href="perfil.html" ><img class="iconos" src="assets/icons/profile.png" alt=""></a>
+          </div>
+
+        </div>
+      </nav>
+    </div>
+
+        <main class="container">
+        <div class="product-gallery">
+            <img src="assets/images/productos/3.webp" alt="Product Image 1" id="main-image" class="main-image">
+        </div>
+        
+        <div class="product-details">
+            <h1 class="product-title">Auriculares Inalámbricos Sony Wh-ch720n Bluetooth Negro</h1>
+            <div class="product-price">
+                <span class="price-current">$ 151999.2</span>
+                <span class="price-old">$ 189999$</span>
+                <span class="price-discount">(-20%)</span>
+            </div>
+            
+            <p class="product-description">
+                Más música, menos ruido de fondo
+                Los dos micrófonos en cada audífono y la tecnología de sensor de ruido dual captan el sonido ambiente y permiten bloquear el ruido exterior para que solo escuches tu música.
+
+            </p>
+            
+            <div class="product-options">
+                <div class="option-group">
+                    <label for="color-select">Color:</label>
+                    <select id="color-select">
+                        <option value="negro">Negro</option>
+                        <option value="blanco">Blanco</option>
+                        <option value="Gris">Gris</option>
+                    </select>
+                </div>
+                
+            </div>
+
+            <div class="product-actions">
+                <div class="quantity-selector">
+                    <input type="number" id="quantity-input" value="1" min="1">
+                </div>
+                <button class="add-to-cart-btn"><i class="fas fa-shopping-cart"></i>Agregar al carrito</button>
+            </div>
+            
+            <div class="product-meta">
+                <p><strong>Categoría:</strong> Audio</p>
+            </div>
+        </div>
+    </main>
+
+
+    <footer style="height: 50px; display: flex; justify-content: center; align-items: center;">
+      <div>
+        <a href="" style="text-decoration: none;">Atención al cliente</a>
+         - 
+        <a href="" style="text-decoration: none;">Terminos y condiciones</a>
+         - 
+        <a href="" style="text-decoration: none;">Contáctanos</a></div>
+    </footer>
+
+
+    <script src="assets/scripts/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
