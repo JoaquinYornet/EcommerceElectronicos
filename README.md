@@ -15,7 +15,7 @@ Herramientas:
 - ### Ejecutar en la raíz del proyecto:
   Con Node.js
   - npm install -g http-server
-  - http-server
+  - http-server <br>
   Con la extensión Live Server de VSCode
   - Click derecho en Index y Open with Live Server
 - ### Copiar la dirección de la consola y abrirla en un navegador
