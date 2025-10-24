@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecommerce productos electrónicos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/index.css">
+  </head>
+  <body>
+    
+    <div>
+      <nav class="navbar bg-body-tertiary" style="height: 80px;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="assets/images/logo/LogoTiendaEcommerce.png" alt="logo" width="45px" height="45px" class="d-inline-block">
+            Electro World
+          </a>
+
+          <div class="d-flex" style="gap: 10px;">
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Buscar productos, marcas, etc..." aria-label="Search" style="font-size:small; width: 240px;"/>
+              <button class="btn btn-outline-primary" type="submit">Buscar</button>
+            </form>
+            <a href="carrito.html" ><img class="iconos" src="assets/icons/cart.png" alt=""></a>
+            <a href="perfil.html" ><img class="iconos" src="assets/icons/profile.png" alt=""></a>
+          </div>
+
+        </div>
+      </nav>
+    </div>
+
+    <section class="h-100 h-custom" style="background-color: #131313;">
+  <div class="container py-5 h-100">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col-12">
+        <div class="card card-registration card-registration-2" style="border-radius: 15px;">
+          <div class="card-body p-0">
+            <div class="row g-0">
+              <div class="col-lg-8">
+                <div class="p-5">
+                  <div class="d-flex justify-content-between align-items-center mb-5">
+                    <h1 class="fw-bold mb-0">Carrito</h1>
+                    <h6 class="mb-0 text-muted">3 items</h6>
+                  </div>
+                  <hr class="my-4">
+
+                  <div class="row mb-4 d-flex justify-content-between align-items-center">
+                    <div class="col-md-2 col-lg-2 col-xl-2">
+                      <img
+                        src="/assets/images/productos/1.jpg"
+                        class="img-fluid rounded-3" alt="Laptop Thinkpad">
+                    </div>
+                    <div class="col-md-3 col-lg-3 col-xl-3">
+                      <h6 class="text-muted">Computadoras</h6>
+                      <h6 class="mb-0">Thinkpad T14 G1</h6>
+                    </div>
+                    <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                      <button data-mdb-button-init data-mdb-ripple-init class="btn btn-link px-2"
+                        onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                        <i class="fas fa-minus"></i>
+                      </button>
+
+                      <input id="form1" min="0" name="quantity" value="1" type="number"
+                        class="form-control form-control-sm" />
+
+                      <button data-mdb-button-init data-mdb-ripple-init class="btn btn-link px-2"
+                        onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                        <i class="fas fa-plus"></i>
+                      </button>
+                    </div>
+                    <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                      <h6 class="mb-0">$ 2425000</h6>
+                    </div>
+                    <div class="col-md-1 col-lg-1 col-xl-2 text-end">
+                      Eliminar
+                    </div>
+
+                  </div>
+
+                  <hr class="my-4">
+
+                  <div class="row mb-4 d-flex justify-content-between align-items-center">
+                    <div class="col-md-2 col-lg-2 col-xl-2">
+                      <img
+                        src="assets/images/productos/3.webp"
+                        class="img-fluid rounded-3" alt="Auriculares">
+                    </div>
+                    <div class="col-md-3 col-lg-3 col-xl-3">
+                      <h6 class="text-muted">Audio</h6>
+                      <h6 class="mb-0">Auriculares Inalámbricos Sony Wh-ch720n Bluetooth Negro</h6>
+                    </div>
+                    <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                      <button data-mdb-button-init data-mdb-ripple-init class="btn btn-link px-2"
+                        onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                        <i class="fas fa-minus"></i>
+                      </button>
+
+                      <input id="form1" min="0" name="quantity" value="1" type="number"
+                        class="form-control form-control-sm" />
+
+                      <button data-mdb-button-init data-mdb-ripple-init class="btn btn-link px-2"
+                        onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                        <i class="fas fa-plus"></i>
+                      </button>
+                    </div>
+                    <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                      <h6 class="mb-0">$ 151999.2</h6>
+                    </div>
+                    <div class="col-md-1 col-lg-1 col-xl-2 text-end">
+                      Eliminar
+                    </div>
+                  </div>
+
+                  <hr class="my-4">
+
+                  <div class="row mb-4 d-flex justify-content-between align-items-center">
+                    <div class="col-md-2 col-lg-2 col-xl-2">
+                      <img
+                        src="assets/images/productos/5.jpg"
+                        class="img-fluid rounded-3" alt="Joystick PS4">
+                    </div>
+                    <div class="col-md-3 col-lg-3 col-xl-3">
+                      <h6 class="text-muted">Videojuegos</h6>
+                      <h6 class="mb-0">Joystick Inalámbrico Compatible Con Ps4</h6>
+                    </div>
+                    <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                      <button data-mdb-button-init data-mdb-ripple-init class="btn btn-link px-2"
+                        onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                        <i class="fas fa-minus"></i>
+                      </button>
+
+                      <input id="form1" min="0" name="quantity" value="1" type="number"
+                        class="form-control form-control-sm" />
+
+                      <button data-mdb-button-init data-mdb-ripple-init class="btn btn-link px-2"
+                        onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                        <i class="fas fa-plus"></i>
+                      </button>
+                    </div>
+                    <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                      <h6 class="mb-0">$ 20703.45</h6>
+                    </div>
+                    <div class="col-md-1 col-lg-1 col-xl-2 text-end">
+                      Eliminar
+                    </div>
+                  </div>
+
+                  <hr class="my-4">
+
+                  <div class="pt-5">
+                    <h6 class="mb-0"><a href="index.html" class="text-body"><i
+                          class="fas fa-long-arrow-alt-left me-2"></i>Volver a la tienda</a></h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 bg-body-tertiary">
+                <div class="p-5">
+                  <h3 class="fw-bold mb-5 mt-2 pt-1">Resumen</h3>
+                  <hr class="my-4">
+
+                  <div class="d-flex justify-content-between mb-4">
+                    <h5 class="text-uppercase">3 items</h5>
+                    <h5>$ 2597702.65</h5>
+                  </div>
+
+                    <div class="d-flex justify-content-between mb-4">
+                    <h5 class="text-uppercase">Precio de envío</h5>
+                    <h5>$ 7000</h5>
+                  </div>
+
+                  <h5 class="text-uppercase mb-3">Método de pago</h5>
+
+                  <div class="mb-4 pb-2">
+                    <select data-mdb-select-init>
+                      <option value="1">Tarjeta visa terminada en 1234</option>
+                      <option value="2">Tarjeta mastercard terminada en 5678</option>
+                    </select>
+                  </div>
+
+                  <h5 class="text-uppercase mb-3">Código de descuento</h5>
+
+                  <div class="mb-5">
+                    <div data-mdb-input-init class="form-outline">
+                      <input type="text" id="form3Examplea2" class="form-control form-control-lg" />
+                      <label class="form-label" for="form3Examplea2">Inserte su código de descuento si posee</label>
+                    </div>
+                  </div>
+
+                  <hr class="my-4">
+
+                  <div class="d-flex justify-content-between mb-5">
+                    <h5 class="text-uppercase">Precio total</h5>
+                    <h5>$ 2604702.65</h5>
+                  </div>
+
+                  <button  type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-block btn-lg"
+                    data-mdb-ripple-color="dark">Confirmar compra</button>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <script src="assets/scripts/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
