@@ -1,0 +1,28 @@
+@media (prefers-color-scheme: light) {
+  :root {
+    --invertir: 0%;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --invertir: 100%;
+  }
+}
+
+.iconos {
+  width: 40px;
+  filter:invert(var(--invertir));
+}
+
+.truncate-text {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  line-clamp: 2;
+  white-space: nowrap; 
+  -webkit-line-clamp: 2; 
+  word-break: break-all;
+}
+
+.carousel-item {
+  max-height: 700px;
+}

@@ -6,4 +6,18 @@ Desarrollada por:
 - Luciana Torres
 - Joaquín Yornet
 
-Vite usado para la creación del proyecto y para el despliegue en GitHub pages. <br> Bootstrap usado para el diseño web
+Herramientas:
+- Bootstrap usado para el diseño web
+- Node.js para hacer host local
+
+## Visualizar página:
+
+1. ### Ejecutar en la raíz del proyecto:
+  * Con Node.js:
+    - npm install -g http-server
+    - http-server
+  
+
+  * Con la extensión Live Server de VSCode
+    - Click derecho en Index y Open with Live Server
+2. ### Copiar la dirección de la consola y abrirla en un navegador
