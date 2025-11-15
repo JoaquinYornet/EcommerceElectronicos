@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="es" data-bs-theme="light">
+  <head>
+    <meta charset="utf-8">
+    <title>Historial de pedidos</title>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="assets/css/index.css">
+
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="height: 80px;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+
+          <img src="assets/images/logo/LogoTiendaEcommerce.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-top">
+          ElectroShop
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav"
+                aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="historial.html">Historial de pedidos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Mi cuenta</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                🛒 Carrito
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <main class="container my-5">
+      <h1 class="mb-4">Historial de pedidos</h1>
+
+
+      <div class="card mb-4">
+        <div class="card-body d-flex flex-wrap justify-content-between">
+          <div>
+            <h5 class="card-title mb-1">Hola , Usuario</h5>
+            <p class="card-text mb-0">Aquí podés ver todas tus compras realizadas.</p>
+          </div>
+          <div class="text-end mt-3 mt-md-0">
+            <span class="badge text-bg-success">Usuario activo</span>
+          </div>
+        </div>
+      </div>
+
+
+      <form class="row g-3 mb-4">
+        <div class="col-md-3">
+          <label class="form-label">Buscar por N° de pedido</label>
+          <input type="text" class="form-control" placeholder="Ej: #10023">
+        </div>
+        <div class="col-md-3">
+          <label class="form-label">Estado</label>
+          <select class="form-select">
+            <option value="">Todos</option>
+            <option value="pendiente">Pendiente</option>
+            <option value="enviado">Enviado</option>
+            <option value="entregado">Entregado</option>
+            <option value="cancelado">Cancelado</option>
+          </select>
+        </div>
+        <div class="col-md-3">
+          <label class="form-label">Desde</label>
+          <input type="date" class="form-control">
+        </div>
+        <div class="col-md-3">
+          <label class="form-label">Hasta</label>
+          <input type="date" class="form-control">
+        </div>
+      </form>
+
+
+      <div class="table-responsive">
+        <table class="table table-hover align-middle">
+          <thead class="table-dark">
+            <tr>
+              <th scope="col">N° Pedido</th>
+              <th scope="col">Fecha</th>
+              <th scope="col">Estado</th>
+              <th scope="col">Total</th>
+              <th scope="col" class="text-center">Acciones</th>
+            </tr>
+          </thead>
+          <tbody>
+
+            <tr>
+              <th scope="row">#10023</th>
+              <td>12/11/2025</td>
+              <td><span class="badge text-bg-success">Entregado</span></td>
+              <td>$ 185.000</td>
+              <td class="text-center">
+                <button class="btn btn-sm btn-outline-primary">
+                  Ver detalle
+                </button>
+              </td>
+            </tr>
+
+            <tr>
+              <th scope="row">#10018</th>
+              <td>04/11/2025</td>
+              <td><span class="badge text-bg-warning text-dark">Enviado</span></td>
+              <td>$ 82.500</td>
+              <td class="text-center">
+                <button class="btn btn-sm btn-outline-primary">
+                  Ver detalle
+                </button>
+              </td>
+            </tr>
+
+            <tr>
+              <th scope="row">#10010</th>
+              <td>21/10/2025</td>
+              <td><span class="badge text-bg-secondary">Cancelado</span></td>
+              <td>$ 39.999</td>
+              <td class="text-center">
+                <button class="btn btn-sm btn-outline-primary">
+                  Ver detalle
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Mensaje cuando no hay pedidos  -->
+      <!--
+      <div class="alert alert-info mt-4" role="alert">
+        Todavía no realizaste ningún pedido. ¡Empezá a comprar en nuestra tienda!
+      </div>
+      -->
+    </main>
+
+
+    <footer class="bg-body-tertiary mt-auto" style="height: 50px; display:flex; justify-content:center; align-items:center;">
+      <small>&copy; 2025 ElectroShop - Todos los derechos reservados</small>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <script src="assets/scripts/main.js"></script>
+  </body>
+</html>
