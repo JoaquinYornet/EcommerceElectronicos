@@ -26,3 +26,16 @@
 .carousel-item {
   max-height: 700px;
 }
+
+.btn-link{
+  width: 100px; 
+  margin: 10px; 
+  justify-self: center;
+  background-color: rgb(2, 2, 52);
+  color: aliceblue;
+  padding: 5px 5px;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 4px;
+  border: 2px rgb(2, 2, 25) solid;
+}
